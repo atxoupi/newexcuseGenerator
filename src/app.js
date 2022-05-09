@@ -16,9 +16,9 @@ window.onload = function() {
     "during my lunch",
     "while I was praying"
   ];
-  let indexWho = Math.floor(Math.random() * 3);
-  let indexWhat = Math.floor(Math.random() * 3);
-  let indexWhen = Math.floor(Math.random() * 4);
+  let indexWho = Math.floor(Math.random() * who.length);
+  let indexWhat = Math.floor(Math.random() * what.length);
+  let indexWhen = Math.floor(Math.random() * when.length);
   let miExcusa =
     who[indexWho] + " " + what[indexWhat] + " my home work " + when[indexWhen];
   console.log(miExcusa);
